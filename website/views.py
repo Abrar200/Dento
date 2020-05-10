@@ -49,7 +49,7 @@ def appointment(request):
 			'Appointment request form ' + your_name,
 			appointment,
 			your_email,
-			['abrarshahriar360@gmail.com'],
+			'abrarshahriar360@gmail.com',
 			)
 
 		return render(request, 'appointment.html', {
